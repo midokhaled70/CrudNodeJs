@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>    <title>Crud</title>
+</head>
+<body>
+    <form action="/addUser" method="POST">
+<input type="text" name="name" placeholder="Enter Your Name"/>
+<input type="text" name="email" placeholder="Enter Your Email"/>
+<input type="number" name="age" placeholder="Enter Your age"/>
+<input type="number" name="Phone Number" placeholder="Enter Your Phone Number"/>
+<select name="gender" required>
+    <option>Gander</option>
+    <option>male</option>
+    <option>Female</option>
+</select>
+<select name="language" required>
+    <option>Language</option>
+    <option>Arabic</option>
+    <option>Deutsch</option>
+    <option>English</option>
+    <option>Frensch</option>
+</select>
+
+<input type="submit" value="Submit" />
+</form>
+
+
+<a href="/users">👥 Show All Users</a>
+</body>
+</html>
