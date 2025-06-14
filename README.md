@@ -1,6 +1,4 @@
-Here's a well-structured `README.md` file for your Node.js CRUD project:
 
----
 
 # 🧾 Node.js User Management CRUD App
 
